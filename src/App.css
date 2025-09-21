@@ -1,38 +1,97 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#contener{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  height:100%;
+  width:auto;
 }
-
-.App-link {
-  color: #61dafb;
+nav{
+  width: 210px;
+  height: auto;
+  float: right;
+  background-color: #666666;
+  border-radius: 10px;
+  text-align: center;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.category{
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  padding:10px;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  background-color: #333;
+  color: lightblue;
+}
+.item{
+  margin-bottom: 10px;
+  border-radius: 10px;
+  width:70%;
+  height:auto;
+  padding: 20px;
+  height:auto;
+  border-radius: 20%;
+  border: cyan solid 3px;
+  margin:5%;
+  color: black;
+}
+.categoryTitle{
+ float:right;
+height: 40px;
+width: 90%;
+border: cyan solid 3px;
+margin-right: 5%;
+margin-left: 5%;
+}
+#app{
+  height:100%;
+  width:auto;
+  
+}
+h2{
+  padding-top: 6%;
+}
+button{
+  margin-bottom: 5%;
+  background-color: cyan;
+  color: black;
+  border: black solid 2px;
+}
+button:hover{
+  background-color: black;
+  color: cyan;
+  border: cyan solid 2px;
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  height:auto;
+  width:auto;
+  background-color: #666666;
+}
+.section{
+  
+  margin-bottom: 5%;
+  background-color: cyan;
+  border-radius: 10px;
+  width: auto;
+  height: auto;
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+button.activeButton {
+  background-color: black;
+  color: cyan;
+  border: cyan solid 2px;
 }
