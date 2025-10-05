@@ -8,7 +8,7 @@ const omnie = [
   {
     category: "nauka",
     content: [
-      "Skończyłem technikum informatyczne oraz zdałem kwalifikacje zawodowe inf.02 i inf.03. Obecnie posiadam podstawowe umiejętności w React, JavaScript, HTML i CSS. Aktualnie zaczynam naukę Node.js oraz Express."
+      "Skończyłem technikum informatyczne oraz zdałem kwalifikacje zawodowe inf.02 i inf.03. Obecnie posiadam podstawowe umiejętności w React, JavaScript, HTML, CSS, Node.js i Express. Aktualnie zaczynam naukę Pythona."
     ]
   },
   {
